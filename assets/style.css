@@ -1,0 +1,39 @@
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(40, 40, 40, 1) 43%, rgba(65, 65, 65, 1) 100%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+#art,
+#art2,
+#art3,
+#art4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white 1px;
+    border-radius: 10px;
+    width: 12rem;
+    height: 19rem;
+}
+
+#sla{
+    display: flex;
+    gap: 20px;
+}
+
+#box-img {
+    background: rgb(153, 153, 153);
+    background: linear-gradient(90deg, rgba(153, 153, 153, 1) 0%, rgba(115, 115, 115, 1) 43%, rgba(78, 78, 78, 1) 100%);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
