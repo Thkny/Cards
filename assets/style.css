@@ -30,11 +30,36 @@ main {
     gap: 20px;
 }
 
-#box-img {
-    background: rgb(153, 153, 153);
-    background: linear-gradient(90deg, rgba(153, 153, 153, 1) 0%, rgba(115, 115, 115, 1) 43%, rgba(78, 78, 78, 1) 100%);
+#box-img,
+#box-img2,
+#box-img3,
+#box-img4  {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
+}
+
+#box-img{
+    background: rgb(120,112,0);
+background: linear-gradient(155deg, rgba(120,112,0,1) 0%, rgba(120,120,62,1) 51%, rgba(120,120,120,1) 99%);
+}
+
+#box-img2{
+    background: rgb(15,120,0);
+background: linear-gradient(155deg, rgba(15,120,0,1) 0%, rgba(73,120,62,1) 51%, rgba(120,120,120,1) 99%);
+}
+
+#box-img3{
+    background: rgb(120,0,99);
+background: linear-gradient(155deg, rgba(120,0,99,1) 0%, rgba(120,62,110,1) 51%, rgba(120,120,120,1) 99%);
+}
+
+#box-img4{
+    background: rgb(0,5,120);
+background: linear-gradient(155deg, rgba(0,5,120,1) 0%, rgba(62,68,120,1) 51%, rgba(120,120,120,1) 99%);
+}
+
+span{
+    display: flex;
 }
