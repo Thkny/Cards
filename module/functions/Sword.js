@@ -40,8 +40,6 @@ bonus.addEventListener('mouseover', function(){
     document.getElementById('dano2').style.color = '#00d921'
     document.getElementById('dano3').style.color = '#00d921'
     document.getElementById('dano4').style.color = '#00d921'
-
-
 })
 
 bonus.addEventListener('mouseout', function(){
@@ -53,5 +51,4 @@ bonus.addEventListener('mouseout', function(){
     document.getElementById('dano2').style.color = 'white'
     document.getElementById('dano3').style.color = 'white'
     document.getElementById('dano4').style.color = 'white'
-
 })
