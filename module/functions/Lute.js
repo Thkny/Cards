@@ -23,7 +23,7 @@ document.getElementById('4dano4').innerHTML = `Poder Psiquico: ${coiso4.poderPsi
 
 // adcioinar valor
 const bonus = document.getElementById('bonus4');
-let porcentagem = 20
+let porcentagem = 10
 let resul = coiso4.danoFisico + (coiso4.danoFisico * porcentagem / 100)
 let resul2 = coiso4.danoDistancial + (coiso4.danoDistancial * porcentagem / 100)
 let resul3 = coiso4.poderMagico + (coiso4.poderMagico * porcentagem / 100)
@@ -34,10 +34,7 @@ bonus.addEventListener('mouseover', function(){
     document.getElementById('4dano2').innerHTML = `Dano Distancial: +${resul2}`
     document.getElementById('4dano3').innerHTML = `Poder Magico: +${resul3}`
     document.getElementById('4dano4').innerHTML = `Poder Psiquico: +${resul4}`
-    document.getElementById('4dano').style.color = '#00d921'
-    document.getElementById('4dano2').style.color = '#00d921'
-    document.getElementById('4dano3').style.color = '#00d921'
-    document.getElementById('4dano4').style.color = '#00d921'
+    document.getElementById('p4').style.color = '#00d921'
 })
 
 bonus.addEventListener('mouseout', function(){
@@ -45,8 +42,5 @@ bonus.addEventListener('mouseout', function(){
     document.getElementById('4dano2').innerHTML = `Dano Distancial: ${coiso4.danoDistancial}`
     document.getElementById('4dano3').innerHTML = `Poder Magico: ${coiso4.poderMagico}`
     document.getElementById('4dano4').innerHTML = `Poder Psiquico: ${coiso4.poderPsiquico}`
-    document.getElementById('4dano').style.color = 'white'
-    document.getElementById('4dano2').style.color = 'white'
-    document.getElementById('4dano3').style.color = 'white'
-    document.getElementById('4dano4').style.color = 'white'
+    document.getElementById('p4').style.color = 'white'
 })
